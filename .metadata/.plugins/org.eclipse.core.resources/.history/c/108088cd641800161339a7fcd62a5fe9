@@ -33,7 +33,7 @@ import javax.microedition.midlet.MIDlet;
 	    //</editor-fold>                    
 
 	    /**
-	     * The main constructor.
+	     * The HelloMIDlet constructor.
 	     */
 	    public Main() {
 	    }

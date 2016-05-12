@@ -1,0 +1,7 @@
+MIDlet-1: Main,,app.Main
+MIDlet-Jar-URL: Geoloc.jar
+MIDlet-Name: Geoloc MIDlet Suite
+MIDlet-Vendor: MIDlet Suite Vendor
+MIDlet-Version: 1.0.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.1
