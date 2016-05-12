@@ -1,0 +1,28 @@
+package test;
+
+import javax.microedition.rms.RecordStore;
+
+abstract class Ex1 {
+
+	RecordStore rs;
+
+	public Ex1() {
+		rs = null;
+	}
+
+	public void start() {
+		try {
+			rs = RecordStore.openRecordStore("monFichier", true);
+			System.out.println("Record store ouvert.");
+		} catch (Exception e) {
+			System.out.println("Erreur Ouverture du Record Store.");
+		} finally {
+			try {
+				rs.closeRecordStore();
+				System.out.println("Record Store Fermé");
+			} catch (Exception e) {
+				System.out.println("Erreur Fermetuer du Record Store");
+			}
+		}
+	}
+}

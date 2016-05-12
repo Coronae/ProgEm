@@ -1,0 +1,177 @@
+!SESSION 2016-05-12 15:57:37.381 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2016-05-12 15:58:52.505
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2016-05-12 17:17:10.998 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data D:\Desktop\Desktop 2\Projets\Workspace\M1\ProgEm -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.mtj.core 1 0 2016-05-12 17:22:58.086
+!MESSAGE Sun Java(TM) Wireless Toolkit 2.5.2_01 for CLDC/DefaultColorPhone was converted to Sun Java(TM) Wireless Toolkit 2.5.2_01 for CLDC/DefaultColorPhone
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:22:58.776
+!MESSAGE 
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-05-12 17:22:59.132
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Arnold'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:26:31.105
+!MESSAGE No permission information available for JMUnit for CLDC 1.0
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:26:31.114
+!MESSAGE No permission information available for JMUnit for CLDC 1.1
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:27:34.060
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:27:54.220
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:28:02.548
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:39:00.818
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:39:23.463
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:39:44.041
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:42:13.307
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:42:30.357
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:43:25.416
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:44:26.306
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:44:39.197
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:45:19.339
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:45:26.085
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:45:54.381
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:45:59.841
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:48:01.653
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:48:14.035
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:48:33.207
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:48:50.045
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:49:02.117
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:49:23.576
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:50:52.603
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:51:52.436
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:53:53.635
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:57:42.362
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:58:02.774
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:58:22.173
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:58:35.014
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:58:58.219
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:59:40.096
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 17:59:46.716
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:00:49.645
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:09:19.888
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:12:16.076
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:12:29.018
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:12:46.666
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:18:45.728
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:19:17.089
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:19:21.242
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:19:47.913
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:19:53.637
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:34:34.132
+!MESSAGE 
+
+!ENTRY org.eclipse.mtj.core 2 0 2016-05-12 18:35:14.962
+!MESSAGE 

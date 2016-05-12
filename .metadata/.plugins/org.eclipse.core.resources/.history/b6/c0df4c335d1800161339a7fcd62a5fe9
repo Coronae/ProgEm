@@ -1,0 +1,24 @@
+package app;
+
+import javax.microedition.midlet.MIDlet;
+import javax.microedition.midlet.MIDletStateChangeException;
+
+import test.Ex1;
+
+public class Main extends MIDlet {
+
+	public Main() {
+
+	}
+
+	public void startApp() throws MIDletStateChangeException {
+		Ex1.start();
+	}
+	public void pauseApp(){
+		
+	}
+	public void destroyApp (boolean b){
+		
+	}
+
+}

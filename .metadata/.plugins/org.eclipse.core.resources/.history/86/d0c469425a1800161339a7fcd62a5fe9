@@ -1,0 +1,35 @@
+package test;
+
+import javax.microedition.midlet.MIDlet;
+import javax.microedition.midlet.MIDletStateChangeException;
+import javax.microedition.rms.RecordListener;
+import javax.microedition.rms.RecordStore;
+
+public class Ex2 extends MIDlet implements RecordListener {
+
+	public Ex2() {
+
+	}
+
+	public void startAppl() throws MIDletStateChangeException{	
+		RecordStore rs = null;
+		
+		String chaine2 = new String();
+		
+		try {
+			rs = RecordStore.openRecordStore("monFichier", true);
+			rs.addRecordListener(this);
+			String chaine = new String ("mon message");
+			// ajout de l’enregistrement id
+			int id = rs.addRecord(chaine.getBytes(),0,chaine.length());
+			// modification de l’enregistrement id2
+			int id2 = getNextRecordId();
+			rs.setRecord(id2, chaine2, 0, 0,chaine2.length());
+			// suppression de l’enregistrement id2
+			rs.deleteRecordId(id2);
+		}
+		
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package test;
+
+Import javax.microedition.midlet.*;
+Import javax.microedition.rms.*;
+
+public class Ex2 extends MIDlet implements RecordListener {
+
+	
+	{ public EssaiRecordListener()
+	{ }
+	public void startAppl() throws
+	MIDletStateChangeException
+	{ RecordStore rs = null;
+}
