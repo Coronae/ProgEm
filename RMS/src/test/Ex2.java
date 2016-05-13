@@ -11,6 +11,7 @@ public class Ex2 {
 		try {
 			rs = RecordStore.openRecordStore(REC_STORE, true);
 		} catch (Exception e) {
+			System.out.println("Erreur Ouverture du RS");
 		}
 	}
 
@@ -19,6 +20,7 @@ public class Ex2 {
 		try {
 			rs.closeRecordStore();
 		} catch (Exception e) {
+			System.out.println("Erreur Fermeture du RS");
 		}
 	}
 
@@ -28,6 +30,7 @@ public class Ex2 {
 			try {
 				RecordStore.deleteRecordStore(REC_STORE);
 			} catch (Exception e) {
+				System.out.println("Erreur Delete du RS");
 			}
 		}
 	}
@@ -38,6 +41,7 @@ public class Ex2 {
 		try {
 			rs.addRecord(rec, 0, rec.length);
 		} catch (Exception e) {
+			System.out.println("Erreur d'écriture du RS");
 		}
 	}
 
