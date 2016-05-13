@@ -1,5 +1,5 @@
-MIDlet-1: HelloWorld,,HelloWorld
-MIDlet-Jar-Size: 1277
+MIDlet-1: HelloWorld,,app.HelloWorld
+MIDlet-Jar-Size: 1384
 MIDlet-Jar-URL: Hello.jar
 MIDlet-Name: Hello MIDlet Suite
 MIDlet-Vendor: MIDlet Suite Vendor

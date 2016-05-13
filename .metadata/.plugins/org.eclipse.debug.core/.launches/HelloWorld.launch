@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="MTJ.emulatorLaunchConfigurationType">
 <booleanAttribute key="mtj.do_ota" value="false"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="HelloWorld"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Hello/src/app/HelloWorld.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="app.HelloWorld"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Hello"/>
 </launchConfiguration>

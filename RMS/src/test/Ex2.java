@@ -45,6 +45,43 @@ public class Ex2 {
 		}
 	}
 
+	public static String getRecord(int i){
+		try {
+			byte[] recData = new byte[5];
+			int len;
+			if (rs.getRecord(i) != null) {
+				if (rs.getRecordSize(i) > recData.length)
+					recData = new byte[rs.getRecordSize(i)];
+
+				len = rs.getRecord(i, recData, 0);
+				return new String(recData, 0, len);
+			}
+
+		} catch (Exception e) {
+
+		}
+		return "Fail";
+	}
+		
+		
+	//Lecture d'un seul RS i
+	public static void readOneRecord(int i) {
+		try {
+			byte[] recData = new byte[5];
+			int len;
+			if (rs.getRecord(i) != null) {
+				if (rs.getRecordSize(i) > recData.length)
+					recData = new byte[rs.getRecordSize(i)];
+
+				len = rs.getRecord(i, recData, 0);
+				System.out.println("Record Selectionné : " + i + " -> " + new String(recData, 0, len));
+			}
+
+		} catch (Exception e) {
+
+		}
+	}
+
 	// Lecture de rs
 	public static void readRecords() {
 		try {
@@ -56,9 +93,7 @@ public class Ex2 {
 					recData = new byte[rs.getRecordSize(i)];
 				}
 				len = rs.getRecord(i, recData, 0);
-				System.out.println("------------------------------");
-				System.out.println("Record " + i + " : " + new String(recData, 0, len));
-				System.out.println("------------------------------");
+				System.out.println("Record " + i + " -> " + new String(recData, 0, len));
 			}
 		} catch (Exception e) {
 		}

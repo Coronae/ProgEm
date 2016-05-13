@@ -1,4 +1,4 @@
-MIDlet-1: HelloWorld,,HelloWorld
+MIDlet-1: HelloWorld,,app.HelloWorld
 MIDlet-Jar-URL: Hello.jar
 MIDlet-Name: Hello MIDlet Suite
 MIDlet-Vendor: MIDlet Suite Vendor
